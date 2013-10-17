@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="simple">
+							<Prp name="filename" type="S" value="toad.exe"/>
+							<Prp name="filepath" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1\"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="autorunonrecording" type="B" value="-1"/>
+					<Prp name="node name" type="S" value="toad"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+					<Prp name="userchangename" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{681CC1AF-6061-4322-9570-31D06AD25209}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item1">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="workfolder" type="S" value="C:\Users\sqlexp\Desktop"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="ToadforSQLServer_6.1.0.1755.exe"/>
+							<Prp name="filepath" type="S" value="C:\Users\sqlexp\Desktop\"/>
+							<Prp name="workfolder" type="S" value="C:\Users\sqlexp\Desktop"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="ToadforSQLServer_6_1_0_1755"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{334305D5-1C80-4F8E-9A17-B64874D27505}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item2">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="clickonce">
+							<Prp name="processtowait" type="S" value="toad.exe"/>
+							<Prp name="startuplink" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="ClickOnce"/>
+					</Node>
+					<Prp name="node name" type="S" value="toad1"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{2D137EB2-F1ED-4EC2-AF36-0BB7C273FD05}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item3">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="clickonce">
+							<Prp name="processtowait" type="S" value="toad.exe"/>
+							<Prp name="startuplink" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="ClickOnce"/>
+					</Node>
+					<Prp name="node name" type="S" value="toad2"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{A48E7D46-C63B-459A-AEC4-7C1F45F15A2C}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item4">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="clickonce">
+							<Prp name="processtowait" type="S" value="toad.exe"/>
+							<Prp name="startuplink" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="ClickOnce"/>
+					</Node>
+					<Prp name="node name" type="S" value="toad3"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{51F8A901-0C5E-4850-8BF0-2CFE3B88FC01}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item5">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="clickonce">
+							<Prp name="processtowait" type="S" value="toad.exe"/>
+							<Prp name="startuplink" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="ClickOnce"/>
+					</Node>
+					<Prp name="node name" type="S" value="toad4"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{778E3AA6-A118-4783-975C-B46A51F21204}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item6">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="clickonce">
+							<Prp name="processtowait" type="S" value="toad.exe"/>
+							<Prp name="startuplink" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="ClickOnce"/>
+					</Node>
+					<Prp name="node name" type="S" value="toad5"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{0456CE2D-1071-4CD7-BCBB-97FB40802931}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item7">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="clickonce">
+							<Prp name="processtowait" type="S" value="toad.exe"/>
+							<Prp name="startuplink" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="ClickOnce"/>
+					</Node>
+					<Prp name="node name" type="S" value="toad6"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{BF96122A-C67A-4508-99B2-85B0E6020444}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item8">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="clickonce">
+							<Prp name="processtowait" type="S" value="toad.exe"/>
+							<Prp name="startuplink" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="ClickOnce"/>
+					</Node>
+					<Prp name="node name" type="S" value="toad7"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{CF206FFA-9104-41A7-9A14-7FEBD66EC942}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item9">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="clickonce">
+							<Prp name="processtowait" type="S" value="toad.exe"/>
+							<Prp name="startuplink" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="ClickOnce"/>
+					</Node>
+					<Prp name="node name" type="S" value="toad8"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{BB425B44-9644-4AB0-9FB2-FFDEAE0ABAA9}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="10"/>
+		</Node>
+		<Node name="config">
+			<Prp name="node name" type="S" value="TestedApps"/>
+		</Node>
+		<Node name="data"/>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{0A202DD7-AEF7-486D-B230-31A06B9A6265}"/>
+		<Prp name="signature" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="typename" type="S" value="Tested Applications"/>
+		<Prp name="version" type="I" value="910"/>
+	</Node>
+</Nodes>
