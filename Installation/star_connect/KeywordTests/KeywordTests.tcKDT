@@ -19,38 +19,7 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Node name="child list">
-			<Node name="item0000000000">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="Test1.tcKDTest"/>
-				</Node>
-				<Prp name="index" type="I" value="0"/>
-				<Prp name="key" type="S" value="{4BE85AA1-BEEF-449B-9D5A-4DC4028E1E72}"/>
-				<Prp name="pluginname" type="S" value="Keyword Testing"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
-			</Node>
-			<Node name="item0000000001">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="Test2.tcKDTest"/>
-				</Node>
-				<Prp name="index" type="I" value="1"/>
-				<Prp name="key" type="S" value="{F40759E0-C4DC-4A74-B5C3-DCD3BED32D35}"/>
-				<Prp name="pluginname" type="S" value="Keyword Testing"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
-			</Node>
-			<Node name="item0000000002">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="Test3.tcKDTest"/>
-				</Node>
-				<Prp name="index" type="I" value="2"/>
-				<Prp name="key" type="S" value="{F0B13C12-E835-4DB5-9C81-4358734C1EF1}"/>
-				<Prp name="pluginname" type="S" value="Keyword Testing"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
-			</Node>
-		</Node>
+		<Node name="child list"/>
 		<Node name="folders">
 			<Node name="folders"/>
 		</Node>

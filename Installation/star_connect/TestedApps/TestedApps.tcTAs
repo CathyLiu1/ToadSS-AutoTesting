@@ -23,6 +23,9 @@
 			<Node name="item0">
 				<Node name="config">
 					<Node name="runmodeparams">
+						<Node name="debug"/>
+						<Node name="profile"/>
+						<Node name="runas"/>
 						<Node name="simple">
 							<Prp name="filename" type="S" value="toad.exe"/>
 							<Prp name="filepath" type="S" value="C:\Program Files (x86)\Quest Software\Toad for SQL Server 6.1\"/>
@@ -46,6 +49,8 @@
 						<Node name="debug">
 							<Prp name="workfolder" type="S" value="C:\Users\sqlexp\Desktop"/>
 						</Node>
+						<Node name="profile"/>
+						<Node name="runas"/>
 						<Node name="simple">
 							<Prp name="filename" type="S" value="ToadforSQLServer_6.1.0.1755.exe"/>
 							<Prp name="filepath" type="S" value="C:\Users\sqlexp\Desktop\"/>
@@ -206,7 +211,7 @@
 				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
 				<Prp name="typename" type="S" value="Tested Application"/>
 			</Node>
-			<Prp name="item count" type="I" value="10"/>
+			<Prp name="item count" type="I" value="0"/>
 		</Node>
 		<Node name="config">
 			<Prp name="node name" type="S" value="TestedApps"/>
